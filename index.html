@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Fragmentos de un Regalo</title>
+
+    <!-- Tipografías -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Música -->
+
+    <audio id="music" loop>
+        <source src="assets/music/piano.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="paperSound">
+        <source src="assets/music/cancion.mpeg" type="audio/mpeg">
+    </audio>
+
+    <!-- Fondo -->
+
+    <div class="background"></div>
+
+    <!-- Bokeh -->
+
+    <div class="bokeh">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <!-- Intro -->
+
+    <section id="intro">
+
+        <h3>Fragmentos de un Regalo</h3>
+
+        <h1>Capítulo II</h1>
+
+        <h2>La Carta</h2>
+
+    </section>
+
+    <!-- Contenedor principal -->
+
+    <main id="scene" class="hidden">
+
+        <!-- Sobre -->
+
+        <div id="envelope">
+
+            <div class="lid"></div>
+
+            <div class="letter">
+            <div class="paper" id="paper">
+
+                <div class="paper-header">
+
+                    <h2>Para ti ❤️</h2>
+
+                    <img src="assets/img/Foto.jpeg" class="photo">
+
+                </div>
+
+                <div class="paper-body">
+
+                    <p id="typedText"></p>
+
+                    <p class="end">
+
+                        Algunas historias...
+
+                        <br><br>
+
+                        no pueden contarse
+
+                        <br>
+
+                        en una sola carta.
+
+                        <br><br>
+
+                        Continuará...
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <p class="click">
+
+            Haz clic sobre el sobre
+
+        </p>
+
+    </main>
+
+    <!-- Continuará -->
+
+    <section id="continue" class="hidden">
+
+        <div class="line"></div>
+
+        <h2>Fin del Capítulo II</h2>
+
+            <h3 class="subtitle">
+
+            Continuará...
+
+            </h3>
+
+        <p>
+
+            Has encontrado el segundo fragmento.
+
+            <br><br>
+
+            Guarda bien la palabra
+
+            <strong>REGALOS</strong>
+
+            <br><br>
+
+            La necesitarás muy pronto...
+
+        </p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
