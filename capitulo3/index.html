@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragmentos de un regalo | Capítulo Final</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Música suave de piano, inicia con el primer toque para permitir reproducción automática -->
+    <audio id="music" loop>
+        <source src="assets/music/cancion.mpeg" type="audio/mpeg">
+    </audio>
+
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <div class="bokeh">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <section id="intro" class="scene active">
+        <div class="intro-content">
+            <p class="intro-verse">Fragmentos de un regalo</p>
+            <h1>Capítulo Final</h1>
+            <p class="intro-subtitle">El destino de nuestra aventura</p>
+        </div>
+    </section>
+
+    <section id="cardScene" class="scene">
+        <div class="card">
+            <p class="card-title">Una carta para ti</p>
+            <div class="word-lines">
+                <div class="word-line" data-word="REGALOS"></div>
+                <div class="word-line" data-word="RECUERDOS"></div>
+                <div class="word-line" data-word="AVENTURA"></div>
+            </div>
+            <p class="card-note">Las palabras que reuniste se escriben lentamente, una tras otra, como si fueran susurros.</p>
+        </div>
+    </section>
+
+    <section id="phraseScene" class="scene">
+        <div class="phrase-card">
+            <div class="phrase-lines">
+                <p class="phrase-line">Los mejores</p>
+                <p class="phrase-line highlight-word">REGALOS</p>
+                <p class="phrase-line">no son cosas.</p>
+                <p class="phrase-line">Son los</p>
+                <p class="phrase-line highlight-word">RECUERDOS</p>
+                <p class="phrase-line">que nacen de una</p>
+                <p class="phrase-line highlight-word">AVENTURA.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="suitcaseScene" class="scene">
+        <div class="story-card">
+            <div class="suitcase-wrap">
+                <div class="suitcase-body"></div>
+                <div class="suitcase-top"></div>
+                <div class="suitcase-handle"></div>
+                <div class="suitcase-straps"></div>
+                <div class="suitcase-light"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinationScene" class="scene">
+        <div class="destination-card">
+            <p class="plane-emoji fade-item">✈️</p>
+            <p class="destination-subtitle fade-item">Nos vamos a...</p>
+            <img class="destination-image fade-item" src="assets/img/Foto.jpeg" alt="Destino de viaje" />
+            <p class="birthday-text fade-item">Feliz cumpleaños ❤️</p>
+            <button id="startAdventure" class="action-button fade-item">Comenzar la aventura</button>
+        </div>
+    </section>
+
+    <section id="finalScene" class="scene">
+        <div class="final-card">
+            <p class="final-reveal">Espero que este viaje se convierta en uno de nuestros recuerdos favoritos.</p>
+            <p class="final-reveal">Te amo ❤️</p>
+            <p class="final-reveal signature">Att: tu chico</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
